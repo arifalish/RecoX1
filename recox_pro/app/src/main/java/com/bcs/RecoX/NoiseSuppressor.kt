@@ -1,4 +1,4 @@
-package com.example.recox
+package com.bcs.RecoX
 
 object NoiseSuppressor {
     // Stub: Use RNNoise or WebRTC AEC/NS integration for noise suppression.

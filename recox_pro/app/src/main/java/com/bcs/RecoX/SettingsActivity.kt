@@ -1,4 +1,4 @@
-package com.example.recox
+package com.bcs.RecoX
 
 import android.os.Bundle
 import android.widget.Button

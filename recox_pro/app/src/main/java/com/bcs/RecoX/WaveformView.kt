@@ -1,4 +1,4 @@
-package com.example.recox
+package com.bcs.RecoX
 
 import android.content.Context
 import android.graphics.Canvas

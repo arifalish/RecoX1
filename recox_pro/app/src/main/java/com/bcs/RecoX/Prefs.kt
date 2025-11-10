@@ -1,4 +1,4 @@
-package com.example.recox
+package com.bcs.RecoX
 
 import android.content.Context
 import androidx.security.crypto.EncryptedSharedPreferences

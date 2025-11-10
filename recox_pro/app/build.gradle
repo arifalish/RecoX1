@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.example.recox'
+    namespace 'com.bcs.RecoX'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.recox"
+        applicationId "com.bcs.RecoX"
         minSdk 24
         targetSdk 34
         versionCode 2
