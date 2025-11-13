@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.bcs.RecoX'
+    namespace 'com.bcs.recox'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.bcs.RecoX"
+        applicationId "com.bcs.recox"
         minSdk 24
         targetSdk 34
         versionCode 2

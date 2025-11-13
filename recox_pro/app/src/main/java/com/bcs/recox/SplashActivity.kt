@@ -1,4 +1,4 @@
-package com.bcs.RecoX
+package com.bcs.recox
 
 import android.content.Intent
 import android.os.Bundle
