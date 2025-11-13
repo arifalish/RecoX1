@@ -2,3 +2,4 @@
 build
 keystore/
 local.properties
+google-services.json

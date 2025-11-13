@@ -11,13 +11,14 @@
         android:label="RecoX"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.Recox">
-        <service android:name=".RecordingService" android:exported="false" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity android:name="com.bcs.RecoX.SplashActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.bcs.RecoX.RecordingService" android:exported="false" />
+        <activity android:name="com.bcs.RecoX.SettingsActivity" />
+        <activity android:name="com.bcs.RecoX.MainActivity" />
     </application>
 </manifest>
