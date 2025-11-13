@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".RecoXApp"
         android:allowBackup="true"
         android:label="RecoX"
         android:icon="@mipmap/ic_launcher"
