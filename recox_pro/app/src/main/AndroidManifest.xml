@@ -20,5 +20,7 @@
         <service android:name="com.bcs.recox.RecordingService" android:exported="false" />
         <activity android:name="com.bcs.recox.SettingsActivity" />
         <activity android:name="com.bcs.recox.MainActivity" />
+        <activity android:name="com.bcs.recox.LoginActivity" />
+        <activity android:name="com.bcs.recox.SignUpActivity" />
     </application>
 </manifest>

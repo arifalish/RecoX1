@@ -63,4 +63,9 @@ dependencies {
     implementation 'androidx.security:security-crypto:1.1.0-alpha03'
     implementation 'androidx.work:work-runtime-ktx:2.8.1'
     implementation 'com.airbnb.android:lottie:6.1.0'
+
+    // Firebase Dependencies
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation platform('com.google.firebase:firebase-bom:33.0.0')
 }
