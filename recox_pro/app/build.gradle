@@ -16,12 +16,6 @@ android {
         versionName "1.1"
     }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-    }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -29,24 +23,22 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-}
 
-
-android {
-    // existing config...
     signingConfigs {
         release {
-            // Replace with your keystore details or set via gradle.properties
             storeFile file(System.getenv("RECOX_KEYSTORE_PATH") ?: "keystore/recox.keystore")
             storePassword System.getenv("RECOX_KEYSTORE_PASSWORD")
             keyAlias System.getenv("RECOX_KEY_ALIAS")
             keyPassword System.getenv("RECOX_KEY_PASSWORD")
         }
     }
+
     buildTypes {
         release {
             signingConfig signingConfigs.release
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
